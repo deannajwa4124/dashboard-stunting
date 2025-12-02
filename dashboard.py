@@ -380,6 +380,3 @@ ngrok.set_auth_token("3675dsZ2B6e5QvxHq6jrAgp4CJD_s8kYo9Dj4UXgLDS9FZWj")
 # Buat tunnel
 public_url = ngrok.connect(8501)
 public_url
-
-!streamlit run dashboard.py --server.port 8501 --server.address 0.0.0.0 &
-
