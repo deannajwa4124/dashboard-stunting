@@ -373,10 +373,3 @@ elif menu == "ℹ️ About":
     Dashboard ini juga dibuat sebagai bentuk pemenuhan Tugas Ujian Akhir Semester Mata Kuliah Komputasi Statistika.
     Semoga apa yang ada di dalam dashboard ini dapat dipertanggungjawabkan dan memudahkan serta menunjang pengetahuan yang menggunakannya.
 """)
-from pyngrok import ngrok
-
-ngrok.set_auth_token("3675dsZ2B6e5QvxHq6jrAgp4CJD_s8kYo9Dj4UXgLDS9FZWj")
-
-# Buat tunnel
-public_url = ngrok.connect(8501)
-public_url
